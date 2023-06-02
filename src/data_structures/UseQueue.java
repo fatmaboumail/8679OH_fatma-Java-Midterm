@@ -1,5 +1,7 @@
 package data_structures;
 
+import java.util.PriorityQueue;
+
 public class UseQueue {
 
     /** INSTRUCTIONS
@@ -12,6 +14,14 @@ public class UseQueue {
 
 
     public static void main(String[] args) {
+        PriorityQueue<String>pq =new PriorityQueue<>();
+        pq.add("nor");
+        pq.add("salah");
+        pq.add("sara");
+        pq.add("houria");
+        System.out.println("preority queue content:"+ pq);
+        System.out.println("head of queue:"+pq.peek());
+        System.out.println("head remove:"+pq.poll());
 
     }
 

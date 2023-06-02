@@ -18,10 +18,10 @@ public class UnitTestConnectDB {
         SharedStepsDatabase ssdb = new SharedStepsDatabase();
 
         // region ExecuteQueryReadOne
-//        String query = "SELECT * FROM EMPLOYEES.EMPLOYEES LIMIT 10";
-//        String result = ssdb.executeQueryReadOne(query);
-//
-//        System.out.println(result);
+       String query = "SELECT * FROM world.city LIMIT 10";
+       String result = ssdb.executeQueryReadOne(query);
+
+      System.out.println(result);
         // endregion
 
         // region executeQueryReadAllSingleColumn

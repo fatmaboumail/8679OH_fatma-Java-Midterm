@@ -1,121 +1,160 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 What is a programming language?
-Answer:
+Answer:is an artificial language that can be used to controle the behaviour of a machine,particularly computer to perform
+specific tasks.
+
 
 What is a JDK composed of? Define each components?
-Answer:
+Answer: is a software development kit to develop application in java. it is a software bundle which provides
+ java class libraries with necessary copmonents to runjava code. jvm executes byte code and provides an
+  environment for executing it.
+
 
 What is an IDE?
-Answer:
+Answer:is a software application that helps programmers develop software code efficiently, it increases developer
+by combining capabilities such as software editing,building.testing,and packaging in an easy to use application.
 
 What are some of the most popular Java IDEs available in the market?
+IntelliJ IDEA, Eclips, NetBeans, Blue j, JDevloper, JGrasp.
 Answer:
 
 Explain the entire java life cycle.
 Answer:
 
 What is a class?
-Answer:
+Answer:is a template used to create objects and to define object data types and methods, or a plueprint to
+ creating object.
 
 What is an object?
-Answer:
+Answer: is an instance of a java class.
 
 What is the entry point of a Java project?
-Answer:
+Answer: is the main method it is the first method that is invoked when a java program is run.
 
 Why is the main() method static?
-Answer:
+Answer:is the first method when startprogramming in java, use it to  make it class related method.
 
 Which class is the superclass of all classes?
-Answer:
+Answer: the  class named object is the super class of every class in java.
 
 What is difference between path and classpath variables?
-Answer:
+Answer: the main difference is path set for java tools in java programs like javac, which are used to
+ compile your code.whereas classpath is used by system or application class loader to locate and load
+  compile java bytecode stored in the class.
 
 What is the difference between an Interface and Abstract class?
-Answer:
+Answer:-type of method: interface can have only abstract methods.whereas, an abstract
+ class can have abstract method and concrete methods.
+ -multiple inhiritance:can be partially achieved by the use of interfaces. whereas,the same can't be done by the
+  use of abstractclasses. because in java one class can implement multiple interfaces, but one class cannot
+   extend ffrom multiple other classes because that's just not possible in java as that would lead to diamound problem.
+   -final variable:declared in java interface are by default. final an abstract class can contain non final variable.
+   -implementetion: abstract class can provide the implementation of the interface. interface
+   can'tprovide the implementation of an abstract class.
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
-Answer:
+Answer:we can't creat object, to implement features of an abstract class we inherit subclasses from it and create
+objects of the subclass, a subclass must override all abstract methods os an abstract class.
+
 
 What is Access Modifier?
-Answer:
+Answer: are keywords that can be used to control the visibility of fields, methods and constructors in a class.
+the four access modifiers in java are public, protected, default,and private.
 
 What is OOP? Define each OOP concept.
-Answer:
+Answer: is a collection of objects(data) and patterns of their interactions around data,
+ or object rather than functions and logic, inheritance, polymorphism,encapsulation,and abstraction.
 
 What is Java Package and which package is imported by default?
-Answer:
+Answer:is used to group related classes. package imported by default is java.lang package.
 
 What is an API? List some API's that you have used so far.
-Answer:
+Answer:is mechanisms that enable two software components to communicate with each other using a set of
+definitions and protocols, twitter bot, weather snippets, google map.
 
 Does java support multiple inheritance? Why or why not?
-Answer:
+Answer: java doen't support multiple inheritance in class because it can lead to diamond problem and rather
+ privide some complex way to solve it .
 
 What is method overloading? List all of the different ways to overload.
-Answer:
+Answer:method overloading is feature of java which a class has more than one method of the same name and their
+parameters are different. list of the different ways to overload- by changing the number of parameters in a method.
+-by changing the order of parameters in a method.- by using different data types for parameters.
 
 Explain exceptions in java and how to handle them.
-Answer:
+Answer: an exception is an event,during the execution of program.that desputs the normal flow of the program's
+instructions when an error occurs within a method. method creates an object and hands it offtothe runtime system.
 
 What is static keyword? When and how do we use it?
-Answer:
+Answer: static variable can be used to refer to the common property of all objects.
 
 What is final keyword? When and how do we use it?
-Answer:
+Answer:is a non access modifier used for classes,attributes and methods, wich makes them non changeable.
 
 Explain the difference between final, finally and finalize?
-Answer:
+Answer:final is an access modifier, finally is the block in exception handling, and finalize
+is the method of object class,
 
 What is a constructor?
 Answer:
-
+is similar to a method that is invoked when an object of the class is created.
 Can we have multiple constructors in a class?
-Answer:
+Answer: yes a class can have multiple constructors in a class.
 
 If we don't have a constructor declared, what is called during the object creation?
-Answer:
+Answer: default constructor.
 
 What is "this" keyword in Java? When would we use it?
-Answer:
+Answer:"this" refers to the current object in a method or constructor. we use it to eliminate the
+ confusion between class attrbutes and parameters with same name.
 
 What is "super" keyword in Java? What are some scenarios we would use it?
-Answer:
+Answer: super keyword refers to superclass parent objects.
 
 What does JVM stand for?
-Answer:
+Answer:is java virtuales machine loads, verifies and executes java bytecode.it known as the interpreter or the core
+of java programming language because it executes java programming.
 
 Is JVM platform independent?
-Answer:
+Answer: JVM is undoubtedly platform independent.
 
 What version of Java are you using?
 Answer:
 
 What does JAR stand for?
-Answer:
+Answer:jar stands for java ARchive. it's a file format based on the zip file format and used for aggregating
+ many files into one.
 
 What is the difference between JDK and JVM?
-Answer:
+Answer:JDK is a software development kit whereas JRE is running the java programs. jdk contains JVM so that can
+run our java program. JVM is the heart of java programming language and privides platform independence.
 
 What is the difference between JVM and JRE?
-Answer:
+Answer:JRE identifies all the helpful class libraries needed for execution. while JVM is subclass of JRE that decodes
+ the bytecode into machine language and other minor tasks
 
 Explain the difference between compile-time and run-time?
-Answer:
+Answer: compile time is the period when the programming code is converted to the machine code. runtime is the
+ period of time when a program is running and generally occurs after compile time.
 
 What is heap?
-Answer:
+Answer: heap is the area of memory used to store objects instantiated by aplications running on the JVM.when the JVM
+is started, heap memory is created and any objects in the heap can be shared between threads as long a the application
+is running.
 
 How does Java manage its memory?
-Answer:
+Answer:refers to the process of allocating and freeing up space for objects. java automatically manages memory the
+ garbage collector is an autonomous memory management technique used by java.
 
 What is the difference between String, StringBuffer and StringBuilder?
-Answer:
+Answer:String is immutable whereas StringBuffer and StringBuilder are mutable classes. StringBuffer is thread safe
+and synchronized.whereas StringBuilder is not.
 
 What is Singleton class?
-Answer:
+Answer:is a class that alows only a single instance of itself to be created and gives access to that created instance
+it contains static variables that can accommodate unique and provide instances of itself. it used in scenarios when
+ a user wants to restrict instantiation of a class to only one object.
 
 What is Serialization and Deserialization?
 Answer:

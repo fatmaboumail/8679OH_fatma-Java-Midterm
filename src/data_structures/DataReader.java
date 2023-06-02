@@ -1,5 +1,8 @@
 package data_structures;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+
 public class DataReader {
 
     /** INSTRUCTIONS
@@ -20,6 +23,8 @@ public class DataReader {
 
     public static void main(String[] args) {
         String textFilePath = System.getProperty("user.dir") + "/src/data_structures/data/self-driving-car.txt";
+
+
 
     }
 

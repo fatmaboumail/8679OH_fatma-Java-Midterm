@@ -20,6 +20,10 @@ public class CollectionView {
         map.put(4, "Boston");
         map.put(1, "NYC");
         map.put(3, "Denver");
+        System.out.println(map);
+        System.out.println(map.get("LA"));
+        System.out.println(map.containsValue(2));
+        System.out.println(map.containsKey(1));
 
     }
 
