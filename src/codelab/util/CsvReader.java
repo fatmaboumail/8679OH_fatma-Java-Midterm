@@ -67,4 +67,19 @@ public class CsvReader {
             return "Very low effort. Not a good sign, " + name;
         }
     }
+    private static double avg(List< Student> roster) {
+        if (roster.isEmpty()){
+            return 0.0;
+        }
+        int questions=0;
+        int students =0;
+        for (Student student: roster){
+            questions+= student.getNumberOfExercisesSolved();
+            students++;
+        }
+        int averageScore= questions/students;
+        return averageScore;
+
+    }
 }
+

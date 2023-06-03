@@ -1,70 +1,104 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 Why do we need data structure?
-Answer:
+Answer:data structure make easy for users to access and work with data they need in appropriate ways.
 
 What are the various operations that can be performed on different data structures?
-Answer:
+Answer: searching: can easily search for any data element in data structure.
+sorting: we can sort the elements either in the data structure.
+insertion:we can insert new data elements in data structure.
+deletion:we can delete the data elements from the data structure.
+updation: we can update or replace the existing elements from the data structure.
 
 When would we use data structures in the real world?
-Answer:
+Answer:we use it to implement back functionality in the internet browser.to store the possible moves in a chess game
+to store key words which are referenced very frequently. to store the customer order information in drive in burger place.
 
 What is an Array?
-Answer:
+Answer: is a collection of similar data elements stored at configuous memory locations. it is the simplest data structure
+where each data element can be accessed directly by only using its index number.
 
 What is the difference between Array and ArrayList?
-Answer:
+Answer: an array has both primative data types as well as object data type.but Array have a fixed number of values, while
+ArrayList can chane in size.
 
 What is a LinkedList?
-Answer:
+Answer:is a collection of nodes connected togather via links. these nodes consist of the data to be stored and
+ a pointer to the address of the next node within the linked list in the case of arrays the size is limited to the
+  definition, but in linked list there no defined size.
 
 How is an Array different from LinkedList?
-Answer:
+Answer:An arrary is a grouping of data elements of equivalent data type. whereas, a LinkedList is a group of
+ entities called a node. the node includes two segments:data and address.
 
 What is a Queue?
-Answer:
+Answer: Queue represents an ordered list of elements. java queue follows FIFO order to insert and remove its elements.
+queue java suppoerts all methods of collection interface.
 
 What is a Stack (referring to data structures)?
-Answer:
+Answer: stack in data structures is a linear type of data structure that follows the LIFO principale and allows insertion
+and deletion operations from one end of the stack data structure that is top.
 
 What is FIFO and LIFO?
-Answer:
+Answer:LIFO( the last in first out) is method assumes that the last unit to arrive in inventory or more recent
+ is sold first. FIFO(first in first out) is method assumes that the oldest unit of inventory is the sold first.
 
 Explain Big O Notation?
-Answer:
+Answer:Big O Notation is a tool used to describe the time complexity of algorithms. it calculates the time taken
+ to run an algorithm as the input grows in other words it calculates the worst case time complexity of an algorithm
+ Big O Notation in data structure describes the upper bound of an algorithm's runtime.
 
 What is the best case to search an element from an array?
-Answer:
+Answer:using the index value, we can access the array elements in constant time .So the time complexity is
+ 0(1) for accessing an element in the array.
+
 
 What is the worst case to search an element from an array?
-Answer:
+Answer:when the value is not in the array at all, then we must look at n values if the array holds n values.
 
 Describe what a tree data structure is?
-Answer:
+Answer:A tree is a hierarchical data structure defined as a collection of nodes. nodes represent value and nodes
+ are connected by edges. a tree has one node called root. the tree originates from this, and hence it does not have
+ any parent
 
 Describe what a graph data structure is?
-Answer:
+Answer: is a non linear kind of data structure made up of nodes or vertices and edges.
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer: HashMap is non synchronized whereas, HashTable is synachronized, which means hashtable is thread safe and can
+be shared between multiple threads but HashMap can not be shared between multiple threads without
+proper synchronization.
+
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer:HashMap works on hashing algorithm and used hashCode , and quals,methods on key for get and put operations.
+HashMap use single linked list to store elements, these are called bins or buckets. when we call
+put method, hashcode of key is used to determine the bucket that will be used to store the maping.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer:is a runtime exception in java that accurs when an array is accessed with an illegal index.
+it accurs when a program attempts to access an invalid index in an array.i.e.an index that is less than 0, or
+equal to or greater than the length of the array.
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer:- using variable assignment. this method has side effects as changes to the element of an array reflects
+on boththe places. - create a new array of the same length and copy each element.
+-use the clone method of the array. - use system.
 
 What is DFS and BFS?
-Answer:
+Answer:DFS is data structure used a stack to find the shortest path, andstands for depth first search.
+ BFS is data structure uses a queue to find the storest path and stands for breadth first search
 
 What is Recursion?
-Answer:
+Answer: is solving a problem using the solution of small subproblems or defined a problem in terms of itself.
 
 What are linear and non-linear data Structures?
-Answer:
+Answer: linear is data elements connect to each other sequentially a user can transverse each element throuhg
+a single run. - non linear data structure the data elements connect to each ither hierarchically.
+ thus they are present at various levels.
 
 Outline different sorting algorithms and their time complexities:
-
+- quick Sort  time complexity is O(N log N)   O(N^2).
+-Heap Sort  time complexity is O(N log N)    O(N log N).
+-Counting Sort   time complexity is O(N+K)  O(N+K) .
+-Radix Sort  time coplexity is O(N*K)    O(N*K).

@@ -25,19 +25,17 @@ import databases.SharedStepsDatabase;
 public class SortEfficiency {
 
     public static void main(String[] args) throws Exception {
+
+
         // Declare and initialize an array of a desired length with random numbers (Try this with 100, 1000, 10000, 100000)
         int[] numberArray = new int[100];
         insertRandomNumbersIntoArray(numberArray);
-
-        SortingAlgorithms sort = new SortingAlgorithms();
+        SortingAlgorithms sort =new SortingAlgorithms();
         SharedStepsDatabase ssdb = new SharedStepsDatabase();
 
-        // region Selection Sort
-        numberArray = sort.selectionSort(numberArray);
-        long selectionSortExecutionTime = sort.executionTime;
 
         System.out.println("***SELECTION SORT***\nArray Length: " + numberArray.length + "\nExecution Time: "
-                + selectionSortExecutionTime + " milliseconds");
+                + "selectionSortExecutionTime" + " milliseconds");
 
         // Insert sorted array into a database table, with the desired table name and column name
         ssdb.insertIntegerArray("selection_sort", "sorted_numbers", numberArray);
@@ -64,6 +62,7 @@ public class SortEfficiency {
         randomize(numberArray);
 
         // region Bubble Sort
+
 
         // endregion
 

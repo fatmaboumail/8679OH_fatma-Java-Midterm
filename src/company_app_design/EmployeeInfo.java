@@ -2,7 +2,7 @@ package company_app_design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo {
+public class EmployeeInfo  {
 
     /** INSTRUCTIONS
      *
@@ -25,11 +25,12 @@ public class EmployeeInfo {
     static final String companyName = "Tesla";
 
     // You must have/use multiple constructors to initialize instance variables that you will create above
-    public EmployeeInfo(int employeeId) {
+    public EmployeeInfo(){
 
     }
 
     public EmployeeInfo(String name, int employeeId) {
+
 
     }
 

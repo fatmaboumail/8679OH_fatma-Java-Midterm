@@ -16,11 +16,14 @@ Answer:is a software application that helps programmers develop software code ef
 by combining capabilities such as software editing,building.testing,and packaging in an easy to use application.
 
 What are some of the most popular Java IDEs available in the market?
-IntelliJ IDEA, Eclips, NetBeans, Blue j, JDevloper, JGrasp.
-Answer:
+
+Answer: are IntelliJ IDEA, Eclips, NetBeans, Blue j, JDevloper, JGrasp.
 
 Explain the entire java life cycle.
-Answer:
+Answer: java text file is saved as .java file on the disk than compile this text file using the java compiler which
+result in a .class fille being created on the disk. the .class file contains rhe bytecode this file loaded into
+ memory by the class loader the bytecode verifier confirms that bytecodes are valid and not hostile. so JVM
+ reads the bytecodes in memory and translates them into machine code.
 
 What is a class?
 Answer:is a template used to create objects and to define object data types and methods, or a plueprint to
@@ -97,8 +100,7 @@ Answer:final is an access modifier, finally is the block in exception handling, 
 is the method of object class,
 
 What is a constructor?
-Answer:
-is similar to a method that is invoked when an object of the class is created.
+Answer: is similar to a method that is invoked when an object of the class is created.
 Can we have multiple constructors in a class?
 Answer: yes a class can have multiple constructors in a class.
 
@@ -120,7 +122,7 @@ Is JVM platform independent?
 Answer: JVM is undoubtedly platform independent.
 
 What version of Java are you using?
-Answer:
+Answer: wersion of java am using is291MB17.0.7.0.
 
 What does JAR stand for?
 Answer:jar stands for java ARchive. it's a file format based on the zip file format and used for aggregating
@@ -157,64 +159,85 @@ it contains static variables that can accommodate unique and provide instances o
  a user wants to restrict instantiation of a class to only one object.
 
 What is Serialization and Deserialization?
-Answer:
+Answer:serialization is the process of converting the state of an object to a byte stream.
+Deserialization is the reverse of serialization is the reverse of serialization is the reverse of serialization
+ and convererts the byte stream back to the original object.
 
 Explain the difference between While and Do..While loops?
-Answer:
+Answer:in the while loop the condition is checked prior to executing any statements whereas in the case of
+do while loop statements are run at least once, and then the condition is varified.
 
 What is Enum?
-Answer:
+Answer:is a special data type that consists of a set of pre defined named values separated by commas these named
+values are also known as elements or enumerators or enum instance.
 
 What is Iterator?
-Answer:
+Answer:is an object used to cycle through arguments or elements presentin a collection. it is derived from
+the technical term iterating which means looping through generally. it is used to loop through any collection
+ of object
 
 Which one will take more memory: an int or Integer? Why?
-Answer:
+Answer:int is a primative data type and takes 32 bits to store. on other hand Integer is an object which takes
+128 bits to store. because int simply represents a whole number,while an Integer has additional properties and methods.
 
 Why are Strings considered to be immutable in Java?
-Answer:
+Answer: because strings with same content share storage in a single pool to minimize creating a copy of the
+same value, once a string is generated its content cannot be changed.
 
 What is constructor chaining in Java?
-Answer:
+Answer:is the process of calling a sequence of constructors. we can do it in two ways:by using this keyword for
+changing constructors in the same class. by using super keyword for chaining constructors from the parent class.
 
 The difference between Serial and Parallel Garbage Collector?
-Answer:
+Answer:serial garbage collector uses a single thread for garbage collection process while the parallel garbage
+ collector uses multiple threads for the garbage collection.
 
 What does JIT stands for?
-Answer:
+Answer:is a form of inventory management that requires working closely with suppliers so that raw materials arrive as
+production is scheduled to begin,but not sooner. the goal is to have the minimum amount of inventory
+ on hand to meet demand
 
 Explain the process of Java garbage collection?
-Answer:
+Answer: is the automated process of deleting code that's no longer needed when an object is no longer used
+the garbage collector reclaims the underlying memory and reuses it for future object allocation.
 
 Can you guarantee the garbage collection process?
-Answer:
+Answer: no it is not garantee it's always possible that you'll try to allocatedmor memory than is available.
 
 What is the difference between stack and heap in Java?
-Answer:
+Answer: heap memory is used by all the parts of the application whereas stack memory is used only by one
+thread of execute
 
 What is reflection in Java and why is it useful?
-Answer:
+Answer: reflection is a feature in the java with enable programmers to examine or modify the internal state
+ of the program, it allows an executing java program to examine or introspectupon itself and manipulate
+  internal proprties of the programm.
 
 What is multithreading in Java?
-Answer:
+Answer: is programming concept in which the application can create a small unit of tasks to execute in oarallel.
 
 What is synchronization in Java?
-Answer:
+Answer:is the capability to control the access of multiple threads to any shared resource.
 
 What is a Framework?
-Answer:
+Answer:is a body of reusable pre written code acting as templates tat developers can use to createe application bt
+filling in custom code as method.
 
 What are the testing Frameworks available in Java?
-Answer:
+Answer:JUnit is unit testing framework used to create and run unit tests for java based project'
 
 What are jUnit and testNG?
-Answer:
+Answer:JUnit is a framework that is open source and may be used to write and trigger tests.
+ TestNG is a java based framework that provides an improved way to run tests.
 
 What are the dependencies for this project?
-Answer:
+Answer: are relationships between tasks based on their sequence dependent tasks require one or more other tasks
+to be completed.
 
 What is dependency injection in Java?
-Answer:
+Answer: is enable you to turn regular java classes into managed objects and to inject them into other managed object
+using dependecy injection your code can declare dependencies on any managed object.
 
 Explain what static binding and dynamic binding is?
-Answer:
+Answer:static binding is also called early binding because it happens during compilation. whereas, dynamic
+ binding is called late binding because it happens during runtime.
