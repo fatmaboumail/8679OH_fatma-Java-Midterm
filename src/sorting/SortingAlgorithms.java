@@ -2,6 +2,8 @@ package sorting;
 
 import com.sun.org.apache.xpath.internal.objects.XNumber;
 
+import java.util.Arrays;
+
 public class SortingAlgorithms {
 
 
@@ -44,19 +46,16 @@ public class SortingAlgorithms {
 
     public  int[] insertionSort(int[] array) {
         final long startTime = System.currentTimeMillis();
+        int[]result= Arrays.copyOf(array,array.length);
+        int n=result.length;
+        int i=1;
+        int j=i;
+        for(i=1; i<n;i++);
+        while((j>0)&&(result[j]<result[j-1])){
+            result[j]=result[j-2];
+            j--;
 
-
-
-
-
-
-
-
-
-
-
-
-        // IMPLEMENT HERE
+        }
 
         final long endTime = System.currentTimeMillis();
         this.executionTime = endTime - startTime;
@@ -65,9 +64,20 @@ public class SortingAlgorithms {
     }
 
     public int[] bubbleSort(int[] array) {
+        final long startTime=System.currentTimeMillis();
+        int[] result=Arrays.copyOf(array,array.length);
+        int a= result.length;
+        for (int i =0; i<a-1; i++) {
+            for (int j = 0; j < a - 1 - i; j++){
+                if (result[j]>result[j+1]){
+                    int temp =result[j];
+                    result[j] =result[j+1];
+                    result[j+1]=temp;
+                }
+        }
 
 
-        // IMPLEMENT HERE
+        }
 
         return array;
     }
