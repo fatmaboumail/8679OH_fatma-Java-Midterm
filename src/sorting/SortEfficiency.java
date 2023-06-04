@@ -27,11 +27,15 @@ public class SortEfficiency {
     public static void main(String[] args) throws Exception {
 
 
+
         // Declare and initialize an array of a desired length with random numbers (Try this with 100, 1000, 10000, 100000)
-        int[] numberArray = new int[100];
+        int[] numberArray = new int[1000];
         insertRandomNumbersIntoArray(numberArray);
         SortingAlgorithms sort =new SortingAlgorithms();
         SharedStepsDatabase ssdb = new SharedStepsDatabase();
+        //region selection sort
+        numberArray=sort.selectionSort(numberArray);
+        long selectionSortExecutionTime= sort.executionTime;
 
 
         System.out.println("***SELECTION SORT***\nArray Length: " + numberArray.length + "\nExecution Time: "
@@ -43,6 +47,7 @@ public class SortEfficiency {
         // Retrieve all elements from the newly created table
         String query = "SELECT * FROM SELECTION_SORT";
         List<String> sorted_numbers = ssdb.executeQueryReadAllSingleColumn(query, "sorted_numbers");
+        printValue(sorted_numbers);
         printValue(sorted_numbers);
 
         // endregion
@@ -62,17 +67,26 @@ public class SortEfficiency {
         randomize(numberArray);
 
         // region Bubble Sort
+        numberArray=sort.bubbleSort(numberArray);
+        long bubbleSortExecuteTime=sort.executionTime;
+        System.out.println("totalExecutionTimeof"+numberArray.length+"numbers in bubble sort took:"
+                +bubbleSortExecuteTime+"milliseconds");
 
 
         // endregion
 
         randomize(numberArray);
+        numberArray=sort.mergeSort(numberArray);
+        long mergeSortExecutionTime=selectionSortExecutionTime;
+        System.out.println("totalExecutionTimeof"+ numberArray.length+"number in merge Sort took:"+ mergeSortExecutionTime
+        +"milliseconds");
 
         // region Merge Sort
 
         // endregion
 
         randomize(numberArray);
+
 
         // region Quick Sort
 

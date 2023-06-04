@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class EmployeeInfo  {
 
+
     /** INSTRUCTIONS
      *
      * This class should implement the Employee interface, but you must do that without using the keyword `implements`
